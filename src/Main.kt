@@ -4,16 +4,17 @@ fun main() {
     print("Introduce la cadena a ")
     cadena=readln().toString()
 
-    print
 
 
-    //cifrarCadenaCesar(cadena)
+
+    cifrarCadenaCesar(cadena)
 
 }
 
-/*fun cifrarCadenaCesar(cadena: String){
-
+fun cifrarCadenaCesar(cadena: String){
+    val TAM: Int= 26
     val arrayC = ArrayList<Char>()
+    val alfabeto= ArrayList<Char>
     var cont: Int=0
 
 
@@ -30,6 +31,6 @@ fun main() {
 
     }
 
-*/
+
 
 }
